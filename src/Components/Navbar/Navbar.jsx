@@ -5,7 +5,6 @@ import { FiLogIn } from "react-icons/fi";
 import { MdContactMail } from "react-icons/md";
 import { PiFlowerLotusBold } from "react-icons/pi";
 import { Link, NavLink } from "react-router";
-import cartImg from "../../assets/shopping-cart.png";
 
 
 const Navbar = () => {
@@ -108,7 +107,7 @@ const Navbar = () => {
         className="card card-compact dropdown-content bg-base-100 z-1 mt-3 w-52 shadow">
         <div className="card-body">
           <span className="text-lg font-bold">8 Items</span>
-          <span className="text-primary">Subtotal: $999</span>
+          <span className="text-pink-500">Subtotal: $999</span>
           <div className="card-actions">
             <Link to="/cart" className="btn border border-rose-500 hover:bg-rose-600 hover:text-white btn-block">View cart</Link>
           </div>
