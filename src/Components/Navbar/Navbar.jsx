@@ -39,7 +39,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-base-100 shadow-md px-4 sticky top-0 z-50">
-      <div className="navbar max-w-7xl mx-auto">
+      <div className="navbar max-w-7xl mx-auto ">
         {/* Navbar Start */}
         <div className="navbar-start">
           {/* Mobile Menu */}
