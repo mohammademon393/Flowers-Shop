@@ -6,7 +6,6 @@ import { MdContactMail } from "react-icons/md";
 import { PiFlowerLotusBold } from "react-icons/pi";
 import { Link, NavLink } from "react-router";
 
-
 const Navbar = () => {
   const navClass = ({ isActive }) =>
     isActive
@@ -95,26 +94,42 @@ const Navbar = () => {
           </Link> */}
 
           {/* cart in daisy ui */}
-          <div className="dropdown dropdown-end mr-2 md:mr-4 ">
-      <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
-        <div className="indicator">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /> </svg>
-          <span className="badge badge-sm indicator-item">8</span>
-        </div>
-      </div>
-      <div
-        tabIndex={0}
-        className="card card-compact dropdown-content bg-base-100 z-1 mt-3 w-52 shadow">
-        <div className="card-body">
-          <span className="text-lg font-bold">8 Items</span>
-          <span className="text-pink-500">Subtotal: $999</span>
-          <div className="card-actions">
-            {/* cart btn */}
-            <Link to="/cart" className="btn border border-rose-500 hover:bg-rose-600 hover:text-white btn-block">View cart</Link>
+          <div className="dropdown dropdown-end dropdown-hover mr-2 md:mr-4">
+            {/* Cart Icon (Click = Go to Cart Page) */}
+            <Link
+              to="/cart"
+              className="btn btn-ghost btn-circle"
+              aria-label="Cart"
+            >
+              <div className="indicator">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5
+             M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17
+             m0 0a2 2 0 100 4 2 2 0 000-4
+             m-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+
+                {/* Cart Count */}
+                <span className="badge badge-sm indicator-item bg-rose-500 text-white">
+                  0
+                </span>
+              </div>
+            </Link>
+
+            {/* Dropdown Preview (Hover Only) */}
+            
           </div>
-        </div>
-      </div>
-    </div>
 
           {/* login btn */}
           <Link
