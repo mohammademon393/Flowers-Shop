@@ -8,6 +8,9 @@ import Home from './Pages/Home/Home';
 import Flowers from './Pages/Flowers/Flowers';
 import Shop from './Pages/Shop/Shop';
 import Contact from './Pages/Contact/Contact';
+import Cart from './Components/Navbar/Cart';
+import Register from './Pages/Login/Register';
+import Login from './Pages/Login/Login';
 
 
 // Create a router instance with your routes
@@ -31,6 +34,18 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         Component: Contact,
+      },
+      {
+        path: "/cart",
+        Component: Cart,
+      },
+      {
+        path: "/login",
+        Component: Login
+      },
+      {
+        path: "/register",
+        Component: Register
       }
     ]
   },
