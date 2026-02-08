@@ -1,4 +1,8 @@
 import React from "react";
+import { FaHome } from "react-icons/fa";
+import { FaShop } from "react-icons/fa6";
+import { MdContactMail } from "react-icons/md";
+import { PiFlowerLotusBold } from "react-icons/pi";
 import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
@@ -11,27 +15,22 @@ const Navbar = () => {
     <>
       <li>
         <NavLink to="/" end className={navClass}>
-          Home
+          <FaHome /> Home
         </NavLink>
       </li>
       <li>
         <NavLink to="/flowers" className={navClass}>
-          Flowers
+          <PiFlowerLotusBold /> Flowers
         </NavLink>
       </li>
       <li>
         <NavLink to="/shop" className={navClass}>
-          Shop
-        </NavLink>
-      </li>
-      <li>
-        <NavLink to="/about" className={navClass}>
-          About
+          <FaShop /> Shop
         </NavLink>
       </li>
       <li>
         <NavLink to="/contact" className={navClass}>
-          Contact
+          <MdContactMail /> Contact
         </NavLink>
       </li>
     </>

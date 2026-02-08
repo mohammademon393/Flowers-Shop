@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "name": "Red Rose Bouquet",
+        "category": "Roses",
+        "price": 1200,
+        "discount": 10,
+        "rating": 4.8,
+        "stock": 25,
+        "image": "/images/flowers/red-rose.jpg",
+        "description": "A classic bouquet of fresh red roses, perfect for expressing love and romance."
+    },
+    {
+        "id": 2,
+        "name": "White Lily Elegance",
+        "category": "Lilies",
+        "price": 1500,
+        "discount": 15,
+        "rating": 4.7,
+        "stock": 18,
+        "image": "/images/flowers/white-lily.jpg",
+        "description": "Elegant white lilies symbolizing purity and peace."
+    },
+    {
+        "id": 3,
+        "name": "Sunflower Sunshine",
+        "category": "Sunflowers",
+        "price": 900,
+        "discount": 5,
+        "rating": 4.6,
+        "stock": 30,
+        "image": "/images/flowers/sunflower.jpg",
+        "description": "Bright and cheerful sunflowers to light up any space."
+    },
+    {
+        "id": 4,
+        "name": "Pink Tulip Charm",
+        "category": "Tulips",
+        "price": 1100,
+        "discount": 12,
+        "rating": 4.5,
+        "stock": 22,
+        "image": "/images/flowers/pink-tulip.jpg",
+        "description": "Soft pink tulips representing affection and happiness."
+    },
+    {
+        "id": 5,
+        "name": "Orchid Royal Touch",
+        "category": "Orchids",
+        "price": 2200,
+        "discount": 20,
+        "rating": 4.9,
+        "stock": 10,
+        "image": "/images/flowers/orchid.jpg",
+        "description": "Luxurious orchids with a royal and premium feel."
+    },
+    {
+        "id": 6,
+        "name": "Mixed Spring Bouquet",
+        "category": "Mixed",
+        "price": 1800,
+        "discount": 8,
+        "rating": 4.7,
+        "stock": 15,
+        "image": "/images/flowers/mixed-bouquet.jpg",
+        "description": "A colorful mix of seasonal flowers for any occasion."
+    }
+]

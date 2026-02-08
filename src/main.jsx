@@ -7,7 +7,6 @@ import Root from './MainLAyout/Root';
 import Home from './Pages/Home/Home';
 import Flowers from './Pages/Flowers/Flowers';
 import Shop from './Pages/Shop/Shop';
-import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
 
 
@@ -28,10 +27,6 @@ const router = createBrowserRouter([
       {
         path: "/shop",
         Component: Shop,
-      },
-      {
-        path: "/about",
-        Component: About,
       },
       {
         path: "/contact",
