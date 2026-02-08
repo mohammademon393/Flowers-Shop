@@ -8,8 +8,8 @@ import { Link, NavLink } from "react-router";
 const Navbar = () => {
   const navClass = ({ isActive }) =>
     isActive
-      ? "text-pink-600 font-semibold border-b-2 border-pink-500"
-      : "text-gray-700 hover:text-pink-500";
+      ? "text-rose-500 font-semibold border-b-2 border-rose-500"
+      : "text-gray-700 hover:text-rose-500";
 
   const NavLinks = (
     <>
@@ -19,7 +19,7 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink to="/flowers" className={navClass}>
+        <NavLink to="/allFlowers" className={navClass}>
           <PiFlowerLotusBold /> Flowers
         </NavLink>
       </li>
@@ -76,7 +76,7 @@ const Navbar = () => {
               alt="Flower Shop Logo"
             />
             <span>
-              Flowers<span className="text-pink-600">Shop</span>
+              Flowers<span className="text-rose-500">Shop</span>
             </span>
           </Link>
         </div>

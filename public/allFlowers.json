@@ -1,0 +1,222 @@
+[
+    {
+        "id": 1,
+        "name": "Red Rose Bouquet",
+        "category": "Roses",
+        "price": 1200,
+        "discount": 10,
+        "rating": 4.8,
+        "stock": 25,
+        "image": "/images/flowers/red-rose.jpg",
+        "description": "Classic red roses symbolizing deep love and romance."
+    },
+    {
+        "id": 2,
+        "name": "White Rose Purity",
+        "category": "Roses",
+        "price": 1300,
+        "discount": 12,
+        "rating": 4.7,
+        "stock": 20,
+        "image": "/images/flowers/white-rose.jpg",
+        "description": "Elegant white roses representing purity and peace."
+    },
+    {
+        "id": 3,
+        "name": "Pink Rose Delight",
+        "category": "Roses",
+        "price": 1250,
+        "discount": 8,
+        "rating": 4.6,
+        "stock": 18,
+        "image": "/images/flowers/pink-rose.jpg",
+        "description": "Soft pink roses expressing admiration and joy."
+    },
+    {
+        "id": 4,
+        "name": "Sunflower Sunshine",
+        "category": "Sunflowers",
+        "price": 900,
+        "discount": 5,
+        "rating": 4.6,
+        "stock": 30,
+        "image": "/images/flowers/sunflower.jpg",
+        "description": "Bright sunflowers that bring happiness and warmth."
+    },
+    {
+        "id": 5,
+        "name": "Golden Sunflower Basket",
+        "category": "Sunflowers",
+        "price": 1400,
+        "discount": 10,
+        "rating": 4.7,
+        "stock": 14,
+        "image": "/images/flowers/sunflower-basket.jpg",
+        "description": "A beautiful basket arrangement of golden sunflowers."
+    },
+    {
+        "id": 6,
+        "name": "White Lily Elegance",
+        "category": "Lilies",
+        "price": 1500,
+        "discount": 15,
+        "rating": 4.7,
+        "stock": 18,
+        "image": "/images/flowers/white-lily.jpg",
+        "description": "Graceful white lilies symbolizing purity and honor."
+    },
+    {
+        "id": 7,
+        "name": "Pink Lily Grace",
+        "category": "Lilies",
+        "price": 1550,
+        "discount": 12,
+        "rating": 4.6,
+        "stock": 16,
+        "image": "/images/flowers/pink-lily.jpg",
+        "description": "Soft pink lilies with a gentle and elegant feel."
+    },
+    {
+        "id": 8,
+        "name": "Purple Orchid Royal",
+        "category": "Orchids",
+        "price": 2300,
+        "discount": 20,
+        "rating": 4.9,
+        "stock": 10,
+        "image": "/images/flowers/purple-orchid.jpg",
+        "description": "Premium purple orchids with a royal appearance."
+    },
+    {
+        "id": 9,
+        "name": "White Orchid Classic",
+        "category": "Orchids",
+        "price": 2200,
+        "discount": 18,
+        "rating": 4.8,
+        "stock": 12,
+        "image": "/images/flowers/white-orchid.jpg",
+        "description": "Timeless white orchids for a luxurious gift."
+    },
+    {
+        "id": 10,
+        "name": "Yellow Tulip Joy",
+        "category": "Tulips",
+        "price": 1100,
+        "discount": 10,
+        "rating": 4.5,
+        "stock": 22,
+        "image": "/images/flowers/yellow-tulip.jpg",
+        "description": "Yellow tulips representing cheerfulness and hope."
+    },
+    {
+        "id": 11,
+        "name": "Pink Tulip Charm",
+        "category": "Tulips",
+        "price": 1150,
+        "discount": 12,
+        "rating": 4.6,
+        "stock": 20,
+        "image": "/images/flowers/pink-tulip.jpg",
+        "description": "Romantic pink tulips full of charm and beauty."
+    },
+    {
+        "id": 12,
+        "name": "Purple Tulip Dream",
+        "category": "Tulips",
+        "price": 1200,
+        "discount": 15,
+        "rating": 4.7,
+        "stock": 17,
+        "image": "/images/flowers/purple-tulip.jpg",
+        "description": "Elegant purple tulips with a dreamy touch."
+    },
+    {
+        "id": 13,
+        "name": "Daisy Fresh Bloom",
+        "category": "Daisies",
+        "price": 800,
+        "discount": 5,
+        "rating": 4.4,
+        "stock": 35,
+        "image": "/images/flowers/daisy.jpg",
+        "description": "Fresh daisies symbolizing innocence and purity."
+    },
+    {
+        "id": 14,
+        "name": "Gerbera Color Mix",
+        "category": "Gerberas",
+        "price": 1000,
+        "discount": 8,
+        "rating": 4.5,
+        "stock": 28,
+        "image": "/images/flowers/gerbera.jpg",
+        "description": "Colorful gerberas full of energy and happiness."
+    },
+    {
+        "id": 15,
+        "name": "Blue Hydrangea Dream",
+        "category": "Hydrangeas",
+        "price": 2000,
+        "discount": 18,
+        "rating": 4.8,
+        "stock": 12,
+        "image": "/images/flowers/blue-hydrangea.jpg",
+        "description": "Soft blue hydrangeas with a calm and dreamy feel."
+    },
+    {
+        "id": 16,
+        "name": "White Hydrangea Grace",
+        "category": "Hydrangeas",
+        "price": 1950,
+        "discount": 15,
+        "rating": 4.7,
+        "stock": 14,
+        "image": "/images/flowers/white-hydrangea.jpg",
+        "description": "Elegant white hydrangeas symbolizing gratitude."
+    },
+    {
+        "id": 17,
+        "name": "Carnation Sweet Love",
+        "category": "Carnations",
+        "price": 850,
+        "discount": 6,
+        "rating": 4.4,
+        "stock": 32,
+        "image": "/images/flowers/carnation.jpg",
+        "description": "Sweet carnations expressing love and fascination."
+    },
+    {
+        "id": 18,
+        "name": "Lavender Calm Touch",
+        "category": "Lavenders",
+        "price": 950,
+        "discount": 7,
+        "rating": 4.5,
+        "stock": 26,
+        "image": "/images/flowers/lavender.jpg",
+        "description": "Soothing lavender flowers with a calming aroma."
+    },
+    {
+        "id": 19,
+        "name": "Mixed Spring Bouquet",
+        "category": "Mixed",
+        "price": 1800,
+        "discount": 10,
+        "rating": 4.7,
+        "stock": 15,
+        "image": "/images/flowers/mixed-bouquet.jpg",
+        "description": "A vibrant mix of fresh seasonal flowers."
+    },
+    {
+        "id": 20,
+        "name": "Luxury Wedding Bouquet",
+        "category": "Wedding",
+        "price": 3500,
+        "discount": 25,
+        "rating": 5.0,
+        "stock": 6,
+        "image": "/images/flowers/wedding-bouquet.jpg",
+        "description": "Premium handcrafted bouquet for weddings and special events."
+    }
+]

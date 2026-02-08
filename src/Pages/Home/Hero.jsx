@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="w-full md:w-1/2 space-y-3 z-10">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
             Let's make <br />
-            <span className="text-[#e94560]">beautiful flowers</span>
+            <span className="text-rose-500">beautiful flowers</span>
             <br />a part of your life.
           </h1>
 
@@ -23,7 +23,7 @@ const Hero = () => {
           <div className="mt-10 pb-8">
             <Link
               to={"/shop"}
-              className="bg-[#e94560] hover:bg-[#d43a55] text-white px-8 py-3 rounded-md font-medium transition duration-300 shadow-lg"
+              className="bg-rose-500 hover:bg-rose-600 text-white px-8 py-3 rounded-md font-medium transition duration-300 shadow-lg"
             >
               Shop Now
             </Link>
