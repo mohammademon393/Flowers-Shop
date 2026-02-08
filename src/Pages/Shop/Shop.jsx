@@ -1,9 +1,12 @@
 import React from 'react';
+import ShopHero from './ShopHero';
+import SearchBar from './SearchBar';
 
 const Shop = () => {
     return (
-        <div>
-                shop page coming soon
+        <div className="min-h-screen">
+            <ShopHero></ShopHero>
+            <SearchBar></SearchBar>
         </div>
     );
 };
