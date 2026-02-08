@@ -5,6 +5,10 @@ import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import Root from './MainLAyout/Root';
 import Home from './Pages/Home/Home';
+import Flowers from './Pages/Flowers/Flowers';
+import Shop from './Pages/Shop/Shop';
+import About from './Pages/About/About';
+import Contact from './Pages/Contact/Contact';
 
 
 // Create a router instance with your routes
@@ -16,6 +20,22 @@ const router = createBrowserRouter([
       {
         index: true,
         Component: Home,
+      },
+      {
+        path: "/flowers",
+        Component: Flowers,
+      },
+      {
+        path: "/shop",
+        Component: Shop,
+      },
+      {
+        path: "/about",
+        Component: About,
+      },
+      {
+        path: "/contact",
+        Component: Contact,
       }
     ]
   },

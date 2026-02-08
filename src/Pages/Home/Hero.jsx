@@ -20,9 +20,14 @@ const Hero = () => {
             beauty to you.
           </p>
 
-          <Link to={'/shop'} className="bg-[#e94560] hover:bg-[#d43a55] text-white px-8 py-3 rounded-md font-medium transition duration-300 shadow-lg">
-            Shop Now
-          </Link>
+          <div className="mt-10">
+            <Link
+              to={"/shop"}
+              className="bg-[#e94560] hover:bg-[#d43a55] text-white px-8 py-3 rounded-md font-medium transition duration-300 shadow-lg"
+            >
+              Shop Now
+            </Link>
+          </div>
         </div>
 
         {/* Right Image */}
