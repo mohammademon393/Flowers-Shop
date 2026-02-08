@@ -1,4 +1,4 @@
-import { FaStar } from "react-icons/fa";
+import { FaCartPlus, FaStar } from "react-icons/fa";
 
 const FutureFlowerCard = ({ flower }) => {
   const { name, price, discount, rating, image, category, description } =
@@ -54,8 +54,9 @@ const FutureFlowerCard = ({ flower }) => {
             )}
           </div>
 
-          <button className="bg-rose-500 hover:bg-rose-600 text-white px-4 py-2 rounded-xl text-sm font-medium transition">
-            Add to Cart
+          <button className="bg-rose-500 hover:bg-rose-600 text-white px-4 py-2 rounded-xl text-sm font-medium transition flex items-center gap-2">
+            <FaCartPlus className="text-base" />
+            <span>Add to Cart</span>
           </button>
         </div>
       </div>

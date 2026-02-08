@@ -11,6 +11,7 @@ import Contact from './Pages/Contact/Contact';
 import Cart from './Components/Navbar/Cart';
 import Register from './Pages/Login/Register';
 import Login from './Pages/Login/Login';
+import ErrorPage from './Components/ErrorPage';
 
 
 // Create a router instance with your routes
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
       {
         path: "/register",
         Component: Register
+      },
+      {
+        path: "*",
+        element: <ErrorPage></ErrorPage> 
       }
     ]
   },
