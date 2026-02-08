@@ -24,7 +24,7 @@ const Footer = () => {
             </span>
           </Link>
 
-          <p className="mt-4 text-sm leading-relaxed max-w-xs">
+          <p className="mt-4 text-gray-400 text-sm leading-relaxed max-w-xs">
             Bringing you fresh, beautiful flowers for every special moment.
             Handpicked blooms, fast delivery, and heartfelt smiles guaranteed.
           </p>
@@ -48,7 +48,7 @@ const Footer = () => {
         {/* Quick Links */}
         <div>
           <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
-          <ul className="space-y-2 text-sm">
+          <ul className="space-y-2 text-sm text-gray-400">
             <li>
               <Link to="/" className="footer-link">
                 Home
@@ -75,7 +75,7 @@ const Footer = () => {
         {/* Customer Care */}
         <div>
           <h3 className="font-semibold text-lg mb-4">Customer Care</h3>
-          <ul className="space-y-2 text-sm">
+          <ul className="space-y-2 text-sm text-gray-400">
             <li className="footer-link">FAQ</li>
             <li className="footer-link">Shipping & Delivery</li>
             <li className="footer-link">Return Policy</li>
@@ -86,8 +86,9 @@ const Footer = () => {
         {/* Newsletter */}
         <div>
           <h3 className="font-semibold text-lg mb-4">Newsletter</h3>
-          <p className="text-sm mb-4">
-            Subscribe to get special offers and flower care tips delivered to your inbox!
+          <p className="text-sm text-gray-400 mb-4">
+            Subscribe to get special offers and flower care tips delivered to
+            your inbox!
           </p>
           <div className="flex">
             <input
@@ -103,7 +104,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom */}
-      <div className="mt-12 border-t border-rose-200 py-4 text-center text-sm">
+      <div className="mt-12 text-gray-400 border-t border-rose-200 py-4 text-center text-sm">
         © {new Date().getFullYear()} FlowersShop. All rights reserved.
       </div>
     </footer>
