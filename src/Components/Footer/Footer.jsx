@@ -20,13 +20,13 @@ const Footer = () => {
               className="w-10 h-10"
             />
             <span>
-              Flowers<span className="text-pink-600">Shop</span>
+              Flowers<span className="text-rose-600">Shop</span>
             </span>
           </Link>
 
           <p className="mt-4 text-sm leading-relaxed max-w-xs">
             Bringing you fresh, beautiful flowers for every special moment.
-            Handpicked blooms, fast delivery, and heartfelt smiles 🌷
+            Handpicked blooms, fast delivery, and heartfelt smiles guaranteed.
           </p>
 
           <div className="flex gap-3 mt-5">
@@ -87,15 +87,15 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold text-lg mb-4">Newsletter</h3>
           <p className="text-sm mb-4">
-            Subscribe to get special offers and flower care tips 💐
+            Subscribe to get special offers and flower care tips delivered to your inbox!
           </p>
           <div className="flex">
             <input
               type="email"
               placeholder="Your email"
-              className="w-full px-4 py-2 rounded-l-md border border-pink-200 focus:outline-none"
+              className="w-full px-4 py-2 rounded-l-md border border-rose-200 focus:outline-none"
             />
-            <button className="bg-pink-500 hover:bg-pink-600 text-white px-4 rounded-r-md transition">
+            <button className="bg-rose-500 hover:bg-rose-600 text-white px-4 rounded-r-md transition">
               Join
             </button>
           </div>
@@ -103,7 +103,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom */}
-      <div className="mt-12 border-t border-pink-200 py-4 text-center text-sm">
+      <div className="mt-12 border-t border-rose-200 py-4 text-center text-sm">
         © {new Date().getFullYear()} FlowersShop. All rights reserved.
       </div>
     </footer>
